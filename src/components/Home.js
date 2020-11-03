@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Image from '../images/food.jpg'
 
-function Home() {
-    return (
-        <div>
-            Home
-        </div>
-    )
-}
+const Home = () => {
+    return <div>
+      <img src={Image}/>
+  </div>
+};
 
-export default Home
+export default Home;
