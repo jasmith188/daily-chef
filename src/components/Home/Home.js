@@ -1,10 +1,12 @@
 import React from 'react';
-import Image from '../../images/food.jpg'
+import './Home.scss';
 
 const Home = () => {
-    return <div>
-      <img src={Image} alt='fail'/>
-  </div>
+  return (
+    <div className="home">
+      <div className="image"></div>
+    </div>
+  );
 };
 
 export default Home;
